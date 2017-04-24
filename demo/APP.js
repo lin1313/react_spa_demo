@@ -3,14 +3,9 @@
  */
 import React,{Component} from 'react'
 import ReactDOM,{render} from 'react-dom'
-import HeaderApp from './src/header/HeaderApp.js'
-import SliderApp from './src/banner/SliderApp.js'
+import Pages from './src/Pages.js'
 
-//render(
-//    <HeaderApp title={"首 页"} options={['筛选','搜索']}/>,
-//    document.getElementById('container')
-//);
 render(
-    <HeaderApp title={"首 页"} options={['筛选','搜索']}/>,
+    <Pages />,
     document.getElementById('container')
 );

@@ -16,7 +16,7 @@ a img { border: none; }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; }
 
-#container .header { width: 100%; height: 30px; background-color: #d04451; }
+#container .header { position: fixed; width: 100%; height: 30px; background-color: #d04451; }
 #container .header .mailbox { float: left; width: 30px; height: 30px; text-align: center; line-height: 30px; }
 #container .header .mailbox a { position: relative; display: inline-block; text-decoration: none; color: #fff; font-family: FontAwesome; }
 #container .header .mailbox a:before { content: "\F003"; }
@@ -27,5 +27,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 #container .header .selectBox a:before { content: "\F036"; }
 #container .header .selectBox ul { position: absolute; top: 30px; right: 0; width: 76px; height: 30px; background-color: #fff; }
 #container .header .selectBox ul li { width: 100%; height: 30px; border-bottom: #d0d0d0 1px solid; }
+#container .banner { width: 100%; height: 209px; overflow: hidden; }
+#container .banner .imgList li { float: left; }
+#container .banner .imgList li img { display: block; width: 100%; }
 
 /*# sourceMappingURL=screen.css.map */

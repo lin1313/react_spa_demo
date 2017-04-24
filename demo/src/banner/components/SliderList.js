@@ -6,7 +6,7 @@ import React,{Component} from 'react'
 export default class SliderList extends Component{
     render(){
         const {imgArr} = this.props;
-        return <ul>
+        return <ul className="imgList">
                     {
                         imgArr.map((item,i) => {
                             return <li key={i}><img src={item}/></li>

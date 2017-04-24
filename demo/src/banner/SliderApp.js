@@ -8,7 +8,7 @@ export default class SliderApp extends Component{
     render(){
         const {imgArr} = this.props;
         return <div className="banner">
-                    <SliderList />
+                    <SliderList imgArr={imgArr}/>
                 </div>
     }
 }
